@@ -1,17 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>My New Hugo FixIt Site</title>
+    <title></title>
     <link>/</link>
     <description>This is my new Hugo FixIt site</description>
-    <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 21 Sep 2022 09:02:05 &#43;0800</lastBuildDate>
+    <generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 25 Sep 2022 20:00:00 &#43;0800</lastBuildDate>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
   <title>Self Introduction</title>
   <link>/posts/selfintroduction/</link>
-  <pubDate>Wed, 21 Sep 2022 09:02:05 &#43;0800</pubDate>
-  <author>Author</author>
+  <pubDate>Sun, 25 Sep 2022 20:00:00 &#43;0800</pubDate>
+  <author>Sherlock</author>
   <guid>/posts/selfintroduction/</guid>
-  <description><![CDATA[Hi there 👋 I&rsquo;m Sherlock Xu, an ordinary student in HDU, majoring in Software Engineering. 🌱 I’m currently learning something on WEB Development.
+  <description><![CDATA[Hi there ！👋 I&rsquo;m Sherlock Xu, a junior in HDU, majoring in Software Engineering. 🌱 I’m currently learning something on WEB Development.
 You can reach me on: About me: 📧 Contact me: chlorine1735.5@gmail.com or sherlockx21@163.com
 😄 Interests:
 Criminology Psychology Football 💪 正在学习: 🧠 计划学习:
