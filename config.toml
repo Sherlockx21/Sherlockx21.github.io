@@ -8,15 +8,76 @@
 # Menu Settings
 # See: https://fixit.lruihao.cn/theme-documentation-basics/#menu-advanced-configuration
 # -------------------------------------------------------------------------------------
-aseURL = "https://Sherlockx21.github.io/"
-# [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "en"
-# language code
-languageCode = "en"
-title = "My New Hugo FixIt Site"
 
-# Change the default theme to be use when building the site with Hugo
-theme = "FixIt"
+# [en, zh-cn, fr, pl, ...] 设置默认的语言
+# defaultContentLanguage = "zh-cn"
+
+# [languages]
+#   [languages.en]
+#     weight = 1
+#     title = "My New Hugo FixIt Site"
+#     languageCode = "en"
+#     languageName = "English"
+#     #contentDir = "content/posts/english/"
+#     [[languages.en.menu.main]]
+#       identifier = "posts"
+#       pre = ""
+#       post = ""
+#       name = "Posts"
+#       url = "/posts/"
+#       title = ""
+#       weight = 1
+#     [[languages.en.menu.main]]
+#       identifier = "tags"
+#       pre = ""
+#       post = ""
+#       name = "Tags"
+#       url = "/tags/"
+#       title = ""
+#       weight = 2
+#     [[languages.en.menu.main]]
+#       identifier = "categories"
+#       pre = ""
+#       post = ""
+#       name = "Categories"
+#       url = "/categories/"
+#       title = ""
+#       weight = 3
+#
+#   [languages.zh-cn]
+#     weight = 2
+#     title = "我的全新 Hugo FixIt 网站"
+#     # 网站语言，仅在这里 CN 大写
+#     languageCode = "zh-CN"
+#     languageName = "简体中文"
+#     # 是否包括中日韩文字
+#     hasCJKLanguage = true
+#     #contentDir = "content/posts/"
+#     [[languages.zh-cn.menu.main]]
+#       identifier = "posts"
+#       pre = ""
+#       post = ""
+#       name = "文章"
+#       url = "/posts/"
+#       title = ""
+#       weight = 1
+#     [[languages.zh-cn.menu.main]]
+#       identifier = "tags"
+#       pre = ""
+#       post = ""
+#       name = "标签"
+#       url = "/tags/"
+#       title = ""
+#       weight = 2
+#     [[languages.zh-cn.menu.main]]
+#       identifier = "categories"
+#       pre = ""
+#       post = ""
+#       name = "分类"
+#       url = "/categories/"
+#       title = ""
+#       weight = 3
+
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -24,7 +85,7 @@ theme = "FixIt"
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
+    name = "文章"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
@@ -33,7 +94,7 @@ theme = "FixIt"
     identifier = "categories"
     pre = ""
     post = ""
-    name = "Categories"
+    name = "分类"
     url = "/categories/"
     title = ""
     weight = 2
@@ -41,7 +102,7 @@ theme = "FixIt"
     identifier = "tags"
     pre = ""
     post = ""
-    name = "Tags"
+    name = "标签"
     url = "/tags/"
     title = ""
     weight = 3
@@ -58,7 +119,7 @@ theme = "FixIt"
   # site keywords
   keywords = ["Hugo", "FixIt"]
   # site default theme ["light", "dark", "auto"]
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   # public git repo url only then enableGitInfo is true
   gitRepo = ""
   # FixIt 0.1.1 | NEW which hash function used for SRI, when empty, no SRI is used
@@ -127,9 +188,9 @@ theme = "FixIt"
     # FixIt 0.2.0 | NEW Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "/fixit.min.svg"
+      logo = "/headlogo.svg"
       # title name
-      name = "My New Hugo FixIt Site"
+      name = "Sherlock's Blog"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -155,7 +216,7 @@ theme = "FixIt"
     # FixIt 0.2.0 | NEW whether to show the author
     author = true
     # Site creation year
-    since = 2021
+    since = 2022
     # FixIt 0.2.14 | NEW Site creation time
     siteTime = "" # e.g. "2021-12-18T16:15:22+08:00"
     # FixIt 0.2.14 | NEW whether to show total word count of site content
@@ -201,9 +262,9 @@ theme = "FixIt"
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/fixit.min.svg"
+      avatarURL = "/avater.svg"
       # FixIt 0.2.7 | CHANGED title shown in home page (HTML format is supported)
-      title = ""
+      title = "Sherlock X"
       # subtitle shown in home page
       subtitle = "This is my new Hugo FixIt site"
       # whether to use typeit animation for subtitle
@@ -220,10 +281,10 @@ theme = "FixIt"
 
   # FixIt 0.2.16 | CHANGED Social config about the author
   [params.social]
-    GitHub = ""
+    GitHub = "Sherlockx21"
     Linkedin = ""
     Twitter = ""
-    Instagram = ""
+    Instagram = "sherlock.x4"
     Facebook = ""
     Telegram = ""
     Medium = ""
@@ -281,13 +342,13 @@ theme = "FixIt"
     Gitea = ""
     XMPP = ""
     Matrix = ""
-    Bilibili = ""
+    Bilibili = "399238173"
     ORCID = ""
     Liberapay = ""
     Ko-Fi = ""
     BuyMeaCoffee = ""
     Linktree = ""
-    QQ = ""
+    QQ = "1339330566"
     QQGroup = "" # https://qun.qq.com/join.html
     Diaspora = ""
     CSDN = ""
@@ -302,9 +363,9 @@ theme = "FixIt"
     RootMe = ""
     Feishu = ""
     TryHackMe = ""
-    Phone = ""
-    Email = ""
-    RSS = true
+    Phone = "19818518300"
+    Email = "sherlockx21@163.com"
+    RSS = false
 
   # FixIt 0.2.0 | CHANGED Page config
   [params.page]
@@ -431,7 +492,7 @@ theme = "FixIt"
       Mix = false
     # FixIt 0.2.15 | CHANGED Comment config
     [params.page.comment]
-      enable = false
+      enable = true
       # FixIt 0.2.13 | NEW Artalk comment config (https://artalk.js.org/)
       [params.page.comment.artalk]
         enable = false

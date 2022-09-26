@@ -1,12 +1,14 @@
 ---
 title: "Self Introduction"
-date: 2022-09-21T09:02:05+08:00
+date: 2022-09-25T20:00:00+08:00
+lastmod: 2022-09-25T20:00:00+08:00
+author: Sherlock
 draft: false
 ---
 
-## Hi there 👋
+# Hi there ！👋
 
- I'm Sherlock Xu, an ordinary student in HDU, majoring in Software Engineering. 🌱 I’m currently learning something on WEB Development.
+ I'm Sherlock Xu, a junior in HDU, majoring in Software Engineering. 🌱 I’m currently learning something on WEB Development.
 
 ##### You can reach me on:[![Github Badge](https://img.shields.io/badge/-Github-232323?style=plastic&logo=Github&logoColor=white&link=https://github.com/Sherlockx21)](https://github.com/Sherlockx21)[![Bilibili Badge](https://img.shields.io/badge/-BiliBili-D14970?style=plastic&logo=Bilibili&logoColor=white&link=https://space.bilibili.com/399238173)](https://space.bilibili.com/399238173) 
 
